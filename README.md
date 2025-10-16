@@ -45,10 +45,43 @@ The application automatically provides:
 
 ## 📂 Project Structure
 
-DocumentAnalyzer/
-│
-├── src/
-│ ├── DocumentAnalyzer.java // Main GUI application
-│ └── FileData.java // Logic for calculating statistics
-├── README.md
-└── pom.xml (optional, if using Maven)
+<img width="619" height="238" alt="image" src="https://github.com/user-attachments/assets/a73e1ef4-1790-4252-9c64-dba20ed6d8d5" />
+
+
+---
+
+## 🔹 Sample Workflow
+
+Open Document Analyzer
+
+Click "Upload File"
+
+Choose your text or PDF document
+
+View the statistics in the GUI
+
+
+---
+
+## 💡 Future Enhancements
+- Support for `.docx` and other file formats.  
+- Export results to CSV, PDF, or Excel.  
+- Real-time analysis while typing in the GUI.  
+- GUI theme customization (dark/light mode).  
+
+---
+
+## 👤 Author
+**Krishna Madar**  
+
+---
+
+## 📸 Screenshot
+*(Optional: Add a screenshot of your application here for visual appeal)*  
+
+
+---
+
+
+
+
