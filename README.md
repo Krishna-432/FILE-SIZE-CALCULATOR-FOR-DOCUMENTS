@@ -56,7 +56,7 @@ Open Document Analyzer
 
 Click "Upload File"
 
-Choose your text or PDF document
+Choose your PDF document
 
 View the statistics in the GUI
 
