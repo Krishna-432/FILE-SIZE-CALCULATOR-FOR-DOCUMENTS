@@ -76,8 +76,9 @@ View the statistics in the GUI
 
 ---
 
-## 📸 Screenshot
-##Initial page appear to user
+## 📸 Screenshots
+
+##  Initial page appear to user
 <img width="1900" height="813" alt="image" src="https://github.com/user-attachments/assets/1d730b72-f064-455f-81df-0838172ff14d" />
 
 ## Final page to Showcasing datails about updated PDF file details
