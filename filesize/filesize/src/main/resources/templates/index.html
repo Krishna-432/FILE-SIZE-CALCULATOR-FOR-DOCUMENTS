@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>File Analyzer</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; text-align: center; background-color: #eef2f5; }
+        .upload-card { background: white; padding: 30px; border-radius: 10px; max-width: 500px; margin: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        .error { color: #d9534f; background-color: #f2dede; border: 1px solid #ebccd1; padding: 10px; border-radius: 5px; margin-top: 15px; }
+        input[type="file"] { margin: 10px 0; }
+        button { background-color: #2c7be5; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #1a5db3; }
+    </style>
+</head>
+<body>
+    <div class="upload-card">
+        <h1>⬆️ Upload a File for Analysis</h1>
+        <p>Please select a file.</p>
+        <form method="post" enctype="multipart/form-data" action="/analyze">
+            <input type="file" name="file" required accept=".pdf,.txt" />
+            <br/><br/>
+            <button type="submit">Analyze File</button>
+        </form>
+        <div th:if="${error}" class="error">
+            <p th:text="${error}"></p>
+        </div>
+    </div>
+</body>
+</html>

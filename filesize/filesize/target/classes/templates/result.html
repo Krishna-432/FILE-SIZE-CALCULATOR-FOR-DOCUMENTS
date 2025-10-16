@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Analysis Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; background-color: #eef2f5; }
+        .card { background: white; padding: 20px; border-radius: 10px; max-width: 500px; margin: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        p { font-size: 16px; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        p:last-of-type { border-bottom: none; }
+        strong { color: #555; }
+        a { display: block; text-align: center; margin-top: 20px; color: #2c7be5; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>📊 Analysis Result</h2>
+        <p><strong>File Name:</strong> <span th:text="${filename}"></span></p>
+        <p><strong>File Size:</strong> <span th:text="${size}"></span></p>
+        <p><strong>Word Count:</strong> <span th:text="${wordCount}"></span></p>
+        <p><strong>Character Count:</strong> <span th:text="${charCount}"></span></p>
+        <p><strong>Longest Word:</strong> <span th:text="${longestWord}"></span></p>
+        <p><strong>Average Word Length:</strong> <span th:text="${avgWordLen}"></span></p>
+
+        <a href="/">🔙 Analyze Another File</a>
+    </div>
+</body>
+</html>
