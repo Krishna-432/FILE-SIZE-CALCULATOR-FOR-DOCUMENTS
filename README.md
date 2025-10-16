@@ -44,3 +44,11 @@ The application automatically provides:
 ---
 
 ## 📂 Project Structure
+
+DocumentAnalyzer/
+│
+├── src/
+│ ├── DocumentAnalyzer.java // Main GUI application
+│ └── FileData.java // Logic for calculating statistics
+├── README.md
+└── pom.xml (optional, if using Maven)
